@@ -5,5 +5,5 @@ templates:
   kafka_ctl : bin/kafka_ctl
 
 packages:
-  - jdk8
+  - jdk7
   - broker

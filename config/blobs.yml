@@ -1,24 +1,12 @@
 ---
-zookeeper/zookeeper-3.4.6.tar.gz:
-  object_id: c0294b76-a652-46c1-b4c9-250c5c2efdaf
-  sha: 2a9e53f5990dfe0965834a525fbcad226bf93474
-  size: 17699306
 jdk7/openjdk-1.7.0.tar.gz:
   object_id: ca7171c2-58e8-4540-a9b9-cacc81a6f278
   sha: d0bf8b1cefa94ec376d87ff11b9996fd15ebb15d
   size: 31475716
-broker/kafka_2.9.2-0.8.1.1.tgz:
-  object_id: fe1ab22e-52b9-4440-a626-747ed0bdcf08
-  sha: d73cc87fcb01c62fdad8171b7bb9468ac1156e75
-  size: 15067175
 broker/kafka_2.10-0.9.0.1.tgz:
   object_id: 0c5a3adb-dafb-4e7e-85dd-14b8e8bfb326
   sha: 8d029b341f43717ea49ac32c9d0c5f74d89a9338
   size: 35725063
-jdk8/jdk-8u111-linux-x64.tar.gz:
-  object_id: 196f3947-95c9-4c81-9752-2df40324a198
-  sha: b6432ce4a5d3286e866ad3acdaf20736e55faecc
-  size: 181442359
 zookeeper/zookeeper-3.4.9.tar.gz:
   object_id: e9d979cb-6f33-4153-b178-20ad2171c263
   sha: 0285717bf5ea87a7a36936bf37851d214a32bb99

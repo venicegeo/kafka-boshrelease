@@ -2,6 +2,6 @@
 name: zookeeper
 
 dependencies:
- - jdk8
+ - jdk7
 files:
  - zookeeper/zookeeper-3.4.9.tar.gz

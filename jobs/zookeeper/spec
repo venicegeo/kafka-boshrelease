@@ -4,5 +4,5 @@ templates:
   zookeeper_ctl : bin/zookeeper_ctl
   zoo.cfg : config/zoo.cfg
 packages:
-  - jdk8
+  - jdk7
   - zookeeper
