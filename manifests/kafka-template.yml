@@ -27,8 +27,8 @@ jobs:
    stemcell: trusty
    azs: (( grab config.network.azs.services ))
    networks:
-   networks:
    - name: (( grab config.hosting.cf.network_name1 ))
+     static_ips: (( grab config.services.zone1.zookeeper.static_ips ))
 
  - name: kafka
    templates:
@@ -40,7 +40,6 @@ jobs:
    azs: (( grab config.network.azs.services ))
    networks:
    - name: (( grab config.hosting.cf.network_name1 ))
-     static_ips: (( grab config.services.zone1.zookeeper.static_ips ))
 
 properties:
   zookeeper: (( grab config.services.zone1.zookeeper.static_ips ))
