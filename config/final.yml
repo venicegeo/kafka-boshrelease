@@ -4,3 +4,5 @@ blobstore:
   provider: s3
   options:
     bucket_name: venice-kafka-release-blobs
+    region: us-west-2
+    endpoint: https://s3-us-west-2.amazonaws.com
