@@ -1,0 +1,36 @@
+---
+packages:
+- name: broker
+  version: 9c7fc1b8833a7144d4a7461b12621fe872759cb4
+  fingerprint: 9c7fc1b8833a7144d4a7461b12621fe872759cb4
+  sha1: 8c810197e305ddf87e9570a9324d51a6858a2e7c
+  dependencies:
+  - jdk7
+- name: jdk7
+  version: 458669bc9b0b758b01a2bb8e8d33b1f043e8e519
+  fingerprint: 458669bc9b0b758b01a2bb8e8d33b1f043e8e519
+  sha1: ff4a81d83303a0283ad4a4e7c4ae79b47ef77f56
+  dependencies: []
+- name: zookeeper
+  version: 8f7a9332a9390b0c5c636dc4257ec32eab0add5f
+  fingerprint: 8f7a9332a9390b0c5c636dc4257ec32eab0add5f
+  sha1: 0107a0b88f11c0aa00aed8077b960578d5671005
+  dependencies:
+  - jdk7
+jobs:
+- name: broker
+  version: a49004b0d5e8adfd8ac9f7eca5f50927111a1ef4
+  fingerprint: a49004b0d5e8adfd8ac9f7eca5f50927111a1ef4
+  sha1: d9c1d4ac20b137947d14e9d99f06e9a294326b6d
+- name: zookeeper
+  version: c05d2f7459b2b2231316b6688b3a47b81de31814
+  fingerprint: c05d2f7459b2b2231316b6688b3a47b81de31814
+  sha1: 6e77c75d0a8465ef085bd1fefede4b62d0e0dd51
+license:
+  version: ec3ad59e391ebec20a0548654617e7137f352006
+  fingerprint: ec3ad59e391ebec20a0548654617e7137f352006
+  sha1: df18239003c1950c4c7276a7cf057eafd2a58f11
+commit_hash: 54234ef3
+uncommitted_changes: true
+name: kafka
+version: '4'

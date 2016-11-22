@@ -7,7 +7,7 @@ director_uuid: <%= `bosh status --uuid` %>
 
 release:
   name: kafka
-  version: latest
+  version: 4
 
 stemcells:
 - alias: trusty
