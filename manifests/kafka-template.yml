@@ -1,0 +1,46 @@
+---
+director_uuid: (( grab config.hosting.cf.bosh_uuid ))
+name: kafka
+
+release:
+  name: kafka
+  version: latest
+
+stemcells:
+- alias: trusty
+  os: ubuntu-trusty
+  version: latest
+
+update:
+  canaries: 1
+  canary_watch_time: 30000 - 240000
+  update_watch_time: 30000 - 600000
+  max_in_flight: 2
+
+jobs:
+ - name: zookeeper
+   templates:
+   - name :  zookeeper
+   instances: 1
+   vm_type: small-compute-tier
+   persistent_disk: 4096
+   stemcell: trusty
+   azs: (( grab config.network.azs.services ))
+   networks:
+   networks:
+   - name: (( grab config.hosting.cf.network_name1 ))
+
+ - name: kafka
+   templates:
+   - name: broker
+   instances: 2
+   vm_type: small-compute-tier
+   persistent_disk: 10000
+   stemcell: trusty
+   azs: (( grab config.network.azs.services ))
+   networks:
+   - name: (( grab config.hosting.cf.network_name1 ))
+     static_ips: (( grab config.services.zone1.zookeeper.static_ips ))
+
+properties:
+  zookeeper: (( grab config.services.zone1.zookeeper.static_ips ))
