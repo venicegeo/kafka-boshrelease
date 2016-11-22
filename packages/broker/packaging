@@ -1,6 +1,6 @@
 # abort script on any command that exits with a non zero value
 set -e
-archive="broker/kafka_2.9.2-0.8.1.1.tgz"
+archive="broker/kafka_2.10-0.9.0.1.tgz"
 if [[ -f $archive ]] ; then
   echo "Archive found"
 else
@@ -9,4 +9,4 @@ else
 fi
 
 tar zxf $archive
-cp -R kafka_2.9.2-0.8.1.1/* ${BOSH_INSTALL_TARGET}
+cp -R kafka_2.10-0.9.0.1/* ${BOSH_INSTALL_TARGET}
