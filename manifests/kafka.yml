@@ -2,10 +2,12 @@
 name: kafka
 logging:
    level: debug
+
 director_uuid: <%= `bosh status --uuid` %>
+
 release:
   name: kafka
-  version: 0+dev.2
+  version: latest
 
 stemcells:
 - alias: trusty
