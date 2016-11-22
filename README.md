@@ -12,8 +12,8 @@ This deployment starts one node with zookeeper and two nodes with brokers.
   bosh deploy
 ```
 
-## Current Versions:
+## Current Versions
 
-kafka - 0.8.1.1 (2.9.2)
-zookeeper - 3.4.6
-openjdk - 1.7.0
+* kafka - 0.8.1.1 (2.9.2)
+* zookeeper - 3.4.6
+* openjdk - 1.7.0
