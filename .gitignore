@@ -4,7 +4,6 @@ releases/*.tgz
 releases/**/*.tgz
 dev_releases
 .blobs
-blobs
 .dev_builds
 .idea
 .DS_Store
