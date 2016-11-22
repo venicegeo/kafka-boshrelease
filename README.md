@@ -7,7 +7,7 @@ This deployment starts one node with zookeeper and two nodes with brokers.
 ## Deploy
 
 ```
-  bosh upload release releases/kafka/kafka-1.yml
+  bosh upload release releases/kafka/kafka-3.yml
   bosh deployment manifests/kafka.yml
   bosh deploy
 ```
