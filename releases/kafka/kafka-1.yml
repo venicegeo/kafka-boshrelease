@@ -3,30 +3,30 @@ packages:
 - name: zookeeper
   version: 4ba1c0e7b9407fef8ce6481bb1381d7d03479670
   fingerprint: 4ba1c0e7b9407fef8ce6481bb1381d7d03479670
-  sha1: d604f68dad4eb63a7b36f2f141f3e47bc92e1e31
+  sha1: d4097d83b296fd934d95e249c2528b808fe681ee
   dependencies:
   - jdk7
 - name: jdk7
   version: 458669bc9b0b758b01a2bb8e8d33b1f043e8e519
   fingerprint: 458669bc9b0b758b01a2bb8e8d33b1f043e8e519
-  sha1: a254bffcb3b8d45468d58b52eda85b56602f7019
+  sha1: ff4a81d83303a0283ad4a4e7c4ae79b47ef77f56
   dependencies: []
 - name: broker
   version: b8b0595fcfca2464e09a19d0dd3dd2cfaa2c647e
   fingerprint: b8b0595fcfca2464e09a19d0dd3dd2cfaa2c647e
-  sha1: 86db7ce428cf4d8a4d473b8559b69eeca98208ac
+  sha1: 02fec79bfe85d7cdcbc9bb89f09ba8a938628d95
   dependencies:
   - jdk7
 jobs:
 - name: zookeeper
   version: c05d2f7459b2b2231316b6688b3a47b81de31814
   fingerprint: c05d2f7459b2b2231316b6688b3a47b81de31814
-  sha1: 079d5d7fcaae0f0ea7919f80e1bc28ad6b4607b9
+  sha1: 6e77c75d0a8465ef085bd1fefede4b62d0e0dd51
 - name: broker
   version: aafdfd00cfaa27f9bf44dfaf6624a35981f40b76
   fingerprint: aafdfd00cfaa27f9bf44dfaf6624a35981f40b76
-  sha1: 900cdf5d868cc46229fff21ae8e8adeb198bd938
-commit_hash: 0c14dead
+  sha1: e4761802885aa016286d520ce3e68c78bbbe5dbc
+commit_hash: ea19d0f6
 uncommitted_changes: true
 name: kafka
-version: '1'
+version: '3'
