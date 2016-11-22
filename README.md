@@ -14,6 +14,6 @@ This deployment starts one node with zookeeper and two nodes with brokers.
 
 ## Current Versions
 
-* kafka - 0.8.1.1 (2.9.2)
-* zookeeper - 3.4.6
-* openjdk - 1.7.0
+* kafka - 0.9.0.1 (2.10)
+* zookeeper - 3.4.9
+* openjdk - 1.8-u111
